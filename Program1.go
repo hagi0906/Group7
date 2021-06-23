@@ -14,7 +14,6 @@ func inttoroman(i int) string {
 
 	tablesize := 31
 	var romanresult []string
-	digit := 0
 
 	for j := 0; j < tablesize; j++ {
 		result := i / alabtable[j]
@@ -22,7 +21,6 @@ func inttoroman(i int) string {
 		if result == 1 {
 
 			romanresult = append(romanresult, romantable[j])
-			digit++
 			i = i - alabtable[j]
 		}
 	}
