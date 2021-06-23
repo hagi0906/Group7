@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	//	"strconv"
 	"strings"
 )
@@ -29,9 +29,11 @@ func inttoroman(i int) string {
 	return roman
 }
 
+/*
 func main() {
 	x := 1990
 
 	fmt.Println(inttoroman(x))
 
 }
+*/
